@@ -31,10 +31,21 @@ export default function Home() {
 					</h1>
 					<Illustration />
 				</section>
-				<section className="flex items-center gap-8 justify-between my-16">
-					{[1, 2, 3].map((i) => (
-						<Card key={i} id={i} />
-					))}
+				<section className="my-16">
+					<h2 className="text-3xl font-bold  my-4">
+						My <span className="text-teal-500">Cards</span>
+					</h2>
+					<div className="flex items-center gap-8 justify-between">
+						{[1, 2, 3].map((i) => (
+							<Card key={i} id={i} />
+						))}
+					</div>
+				</section>
+
+				<section className="my-16">
+					<h2 className="text-3xl font-bold  my-4">
+						<span className="text-teal-500">Contact</span> Me
+					</h2>
 				</section>
 			</main>
 
