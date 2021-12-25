@@ -32,9 +32,9 @@ export default function Home() {
 					<Illustration />
 				</section>
 				<section className="flex items-center gap-8 justify-between my-16">
-					<Card id={1} />
-					<Card id={2} />
-					<Card id={3} />
+					{[1, 2, 3].map((i) => (
+						<Card key={i} id={i} />
+					))}
 				</section>
 			</main>
 
