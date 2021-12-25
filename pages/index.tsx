@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Card from "../components/Card";
 import Illustration from "../components/Illustration";
+import Map from "../components/Map";
 
 export default function Home() {
 	return (
@@ -22,7 +23,7 @@ export default function Home() {
 			</header>
 
 			<main className="px-16">
-				<section className="flex items-center mt-8 gap-8 mx-auto w-[100%]">
+				<section className="flex items-center mt-8 gap-8">
 					<h1 className="text-8xl">
 						Check out my{" "}
 						<span className="text-teal-500 font-bold selection:bg-white selection:text-teal-500">
@@ -46,6 +47,54 @@ export default function Home() {
 					<h2 className="text-3xl font-bold  my-4">
 						<span className="text-teal-500">Contact</span> Me
 					</h2>
+					<div className="flex items-start mt-8 gap-8">
+						<Map />
+						<form>
+							<div className="flex items-center gap-8">
+								<div className="flex flex-col relative">
+									<label htmlFor="name">Name:</label>
+									<div className="input-after">
+										<input className="input" type="text" id="name" required />
+									</div>
+								</div>
+								<div className="flex flex-col my-4 relative">
+									<label htmlFor="surname">Surname:</label>
+									<div className="input-after">
+										<input
+											className="input"
+											type="text"
+											id="surname"
+											required
+										/>
+									</div>
+								</div>
+							</div>
+							<div className="flex flex-col my-4 relative">
+								<label htmlFor="email">Email:</label>
+								<div className="input-after">
+									<input className="input" type="email" id="email" required />
+								</div>
+							</div>
+							<div className="flex flex-col my-4 relative">
+								<label htmlFor="subject">Subject:</label>
+								<div className="input-after">
+									<input className="input" type="text" id="subject" required />
+								</div>
+							</div>
+							<div className="flex flex-col my-4 relative">
+								<label htmlFor="message">Message:</label>
+								<div className="input-after">
+									<textarea className="input resize-none" id="message" />
+								</div>
+							</div>
+
+							<input
+								type="submit"
+								value="Send"
+								className="bg-teal-500 text-white p-4 my-4 w-full cursor-pointer hover:text-teal-500 hover:bg-transparent hover:border-teal-500 hover:border-2 focus:text-teal-500 focus:bg-transparent focus:border-teal-500 focus:border-2 border-2 border-transparent duration-500  outline-none"
+							/>
+						</form>
+					</div>
 				</section>
 			</main>
 

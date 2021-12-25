@@ -12,4 +12,12 @@
 	.link {
 		@apply cursor-pointer hover:scale-105 duration-[500ms] hover:bg-white hover:text-teal-500 p-2 rounded-full;
 	}
+
+	.input {
+		@apply outline-none p-2 bg-transparent border-b-2 border-r-2 relative border-teal-500 text-teal-500 w-full;
+	}
+
+	.input-after {
+		@apply after:content-[''] after:absolute after:w-[102%] after:h-[80%] after:border-b-2 after:border-r-2 after:-bottom-2 after:-right-2 after:border-teal-500 cursor-text hover:opacity-50 focus:opacity-50;
+	}
 }
