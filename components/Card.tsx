@@ -11,12 +11,15 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	return (
 		<div className="shadow-lg rounded-xl overflow-hidden w-[400px]">
-			<Image
-				src={`https://source.unsplash.com/random?sig=${getRandomNumber(id)}`}
-				objectFit="cover"
-				width={400}
-				height={300}
-			/>
+			<div className="overflow-hidden">
+				<Image
+					className="hover:scale-150 duration-500"
+					src={`https://source.unsplash.com/random?sig=${getRandomNumber(id)}`}
+					objectFit="cover"
+					width={400}
+					height={300}
+				/>
+			</div>
 
 			<div className="p-8">
 				<h2 className="font-bold mb-4">Title here</h2>
