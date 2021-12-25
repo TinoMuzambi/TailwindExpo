@@ -29,7 +29,7 @@ export default function Home() {
 			</header>
 
 			<main className="px-16">
-				<section className="flex flex-col md:flex-row items-center mt-8 gap-1 md:gap-8 min-h-screen">
+				<section className="flex flex-col md:flex-row items-center mt-8 gap-1 md:gap-8 min-h-screen md:min-h-fit">
 					<h1 className="text-4xl md:text-8xl">
 						Check out my{" "}
 						<span className="text-teal-500 font-bold selection:bg-white selection:text-teal-500">
@@ -37,9 +37,16 @@ export default function Home() {
 						</span>
 					</h1>
 					<Illustration />
+					<div className="rounded-full absolute bg-teal-500 w-52 aspect-square top-20 left-[40%] hidden md:block"></div>
+					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square -bottom-32 md:bottom-8 right-16"></div>
+					<div className="rounded-full absolute bg-teal-500 w-12 aspect-square bottom-32 left-16"></div>
+					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square bottom-8 hidden md:block left-40"></div>
+					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square bottom-52 left-[80%] md:left-[40%] hidden md:block"></div>
+					<div className="rounded-full absolute bg-teal-500 w-16 aspect-square bottom-8 left-[45%]"></div>
+					<div className="rounded-full absolute bg-teal-500 w-20 aspect-square top-32 right-4"></div>
 				</section>
 				<section>
-					<h2 className="text-3xl font-bold  my-4">
+					<h2 className="text-3xl font-bold my-10">
 						My <span className="text-teal-500">Cards</span>
 					</h2>
 					<div className="flex flex-col md:flex-row items-center gap-8 justify-between">
