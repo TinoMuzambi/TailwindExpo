@@ -2,13 +2,12 @@ import Head from "next/head";
 import Card from "../components/Card";
 import Illustration from "../components/Illustration";
 import Map from "../components/Map";
+import Meta from "../components/Meta";
 
 export default function Home() {
 	return (
 		<div className="selection:bg-teal-500 selection:text-white">
-			<Head>
-				<title>Expo</title>
-			</Head>
+			<Meta />
 
 			<header className="sticky inset-0 z-10">
 				<nav className="flex flex-col md:flex-row items-center justify-between py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
