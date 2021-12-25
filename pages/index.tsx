@@ -139,7 +139,7 @@ export default function Home() {
 						</ul>
 					</div>
 				</div>
-				<p>Copyright ® Tino Muzambi 2021</p>
+				<p className="mx-2">Copyright ® Tino Muzambi 2021</p>
 			</footer>
 		</div>
 	);
