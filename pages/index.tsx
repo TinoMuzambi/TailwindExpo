@@ -37,13 +37,13 @@ export default function Home() {
 						</span>
 					</h1>
 					<Illustration />
-					<div className="rounded-full absolute bg-teal-500 w-52 aspect-square top-20 left-[40%] hidden md:block"></div>
-					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square -bottom-32 md:bottom-8 right-16"></div>
-					<div className="rounded-full absolute bg-teal-500 w-12 aspect-square bottom-32 left-16"></div>
-					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square bottom-8 hidden md:block left-40"></div>
-					<div className="rounded-full absolute bg-teal-500 w-32 aspect-square bottom-52 left-[80%] md:left-[40%] hidden md:block"></div>
-					<div className="rounded-full absolute bg-teal-500 w-16 aspect-square bottom-8 left-[45%]"></div>
-					<div className="rounded-full absolute bg-teal-500 w-20 aspect-square top-32 right-4"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-52 aspect-square top-20 left-[40%] hidden md:block"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-32 aspect-square -bottom-32 md:bottom-8 right-16"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-12 aspect-square bottom-32 left-16"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-32 aspect-square bottom-8 hidden md:block left-40"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-32 aspect-square bottom-52 left-[80%] md:left-[40%] hidden md:block"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-16 aspect-square bottom-8 left-[45%]"></div>
+					<div className="rounded-full -z-10 absolute bg-teal-500 opacity-70 w-20 aspect-square top-32 right-4"></div>
 				</section>
 				<section>
 					<h2 className="text-3xl font-bold my-10">
