@@ -4,6 +4,6 @@
 
 @layer components {
 	.link {
-		@apply hover:underline cursor-pointer transform hover:scale-105 duration-[500ms];
+		@apply cursor-pointer transform hover:scale-105 duration-[500ms] hover:bg-white hover:text-teal-500 p-3 rounded-full;
 	}
 }
