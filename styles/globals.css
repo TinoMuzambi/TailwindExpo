@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	body {
+		background: #f3f3f3;
+	}
+}
+
 @layer components {
 	.link {
 		@apply cursor-pointer transform hover:scale-105 duration-[500ms] hover:bg-white hover:text-teal-500 p-3 rounded-full;

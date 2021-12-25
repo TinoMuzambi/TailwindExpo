@@ -24,14 +24,17 @@ export default function Home() {
 			<main className="px-16">
 				<section className="flex items-center mt-8 gap-8 mx-auto w-[100%]">
 					<h1 className="text-8xl">
-						Look at my <span className="text-teal-500 font-bold">Tailwind</span>
+						Look at my{" "}
+						<span className="text-teal-500 font-bold selection:bg-white selection:text-teal-500">
+							Tailwind
+						</span>
 					</h1>
 					<Illustration />
 				</section>
 				<section className="flex items-center gap-8 justify-between my-16">
-					<Card />
-					<Card />
-					<Card />
+					<Card id={1} />
+					<Card id={2} />
+					<Card id={3} />
 				</section>
 			</main>
 

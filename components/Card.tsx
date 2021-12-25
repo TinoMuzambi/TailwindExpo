@@ -1,11 +1,15 @@
 import Image from "next/image";
 
-const Card = () => {
+interface CardProps {
+	id: number;
+}
+
+const Card: React.FC<CardProps> = ({ id }) => {
 	return (
 		<div className="shadow-lg rounded-xl overflow-hidden w-[400px]">
 			<Image
 				src={`https://source.unsplash.com/random?sig=${Math.floor(
-					Math.random()
+					Math.random() * id
 				)}`}
 				width={400}
 				height={300}
