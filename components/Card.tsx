@@ -3,7 +3,13 @@ import Image from "next/image";
 const Card = () => {
 	return (
 		<div className="shadow-lg rounded-xl overflow-hidden w-[400px]">
-			<Image src={"https://unsplash.it/400/"} width={400} height={300} />
+			<Image
+				src={`https://source.unsplash.com/random?sig=${Math.floor(
+					Math.random()
+				)}`}
+				width={400}
+				height={300}
+			/>
 
 			<div className="p-8">
 				<h2 className="font-bold mb-4">Title here</h2>
