@@ -38,7 +38,43 @@ export default function Home() {
 				</section>
 			</main>
 
-			<footer className=""></footer>
+			<footer className="py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
+				<div className="flex items-start justify-between ">
+					<p className="font-bold text-6xl">
+						Tino
+						<br />
+						Muzambi
+					</p>
+					<div>
+						<ul className="flex flex-col gap-2">
+							<li className="link">Info</li>
+							<li className="link">Social</li>
+							<li className="link">About</li>
+							<li className="link">Help</li>
+							<li className="link">FAQ</li>
+						</ul>
+					</div>
+					<div>
+						<ul className="flex flex-col gap-2">
+							<li className="link">Terms</li>
+							<li className="link">Privacy</li>
+							<li className="link">Security</li>
+							<li className="link">Support</li>
+							<li className="link">Contact</li>
+						</ul>
+					</div>
+					<div>
+						<ul className="flex flex-col gap-2">
+							<li className="link">Instagram</li>
+							<li className="link">Facebook</li>
+							<li className="link">LinkedIn</li>
+							<li className="link">YouTube</li>
+							<li className="link">GitHub</li>
+						</ul>
+					</div>
+				</div>
+				<p>Copyright ® Tino Muzambi 2021</p>
+			</footer>
 		</div>
 	);
 }
