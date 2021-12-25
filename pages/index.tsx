@@ -11,7 +11,14 @@ export default function Home() {
 
 			<header className="sticky inset-0 z-10">
 				<nav className="flex flex-col md:flex-row items-center justify-between py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
-					<p className="font-bold text-xl">TinoMuzambi</p>
+					<a
+						href="https://tinomuzambi.com"
+						target="_blank"
+						rel="noreferrer"
+						className="font-bold text-xl hover:text-white hover:underline"
+					>
+						TinoMuzambi
+					</a>
 					<ul className="flex gap-4">
 						<li className="link">Home</li>
 						<li className="link">About</li>
