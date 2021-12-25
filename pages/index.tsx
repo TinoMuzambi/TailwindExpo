@@ -105,14 +105,14 @@ export default function Home() {
 			</main>
 
 			<footer className="py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
-				<div className="flex flex-col md:flex-row divide-y-2 md:divide-y-0 items-start justify-between ">
-					<p className="font-bold text-6xl">
+				<div className="flex flex-col md:flex-row divide-y-2 md:divide-y-0 gap-2 items-start justify-between ">
+					<p className="font-bold text-6xl my-4">
 						Tino
 						<br />
 						Muzambi
 					</p>
 					<div>
-						<ul className="flex flex-col gap-2">
+						<ul className="flex flex-col gap-2 my-2">
 							<li className="link">Info</li>
 							<li className="link">Social</li>
 							<li className="link">About</li>
@@ -121,7 +121,7 @@ export default function Home() {
 						</ul>
 					</div>
 					<div>
-						<ul className="flex flex-col gap-2">
+						<ul className="flex flex-col gap-2 my-2">
 							<li className="link">Terms</li>
 							<li className="link">Privacy</li>
 							<li className="link">Security</li>
@@ -130,7 +130,7 @@ export default function Home() {
 						</ul>
 					</div>
 					<div>
-						<ul className="flex flex-col gap-2">
+						<ul className="flex flex-col gap-2 my-2">
 							<li className="link">Instagram</li>
 							<li className="link">Facebook</li>
 							<li className="link">LinkedIn</li>
