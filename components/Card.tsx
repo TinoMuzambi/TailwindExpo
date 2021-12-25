@@ -5,12 +5,15 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ id }) => {
+	const getRandomNumber = (multiplier: number): number => {
+		return Math.floor(Math.random() * multiplier * 100000);
+	};
+
 	return (
 		<div className="shadow-lg rounded-xl overflow-hidden w-[400px]">
 			<Image
-				src={`https://source.unsplash.com/random?sig=${Math.floor(
-					Math.random() * id
-				)}`}
+				src={`https://source.unsplash.com/random?sig=${getRandomNumber(id)}`}
+				objectFit="cover"
 				width={400}
 				height={300}
 			/>
