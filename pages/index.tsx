@@ -49,7 +49,7 @@ export default function Home() {
 					<h2 className="text-3xl font-bold my-10">
 						My <span className="text-teal-500">Cards</span>
 					</h2>
-					<div className="flex flex-col md:flex-row items-center gap-8 justify-between">
+					<div className="flex flex-col md:flex-row items-center gap-16 md:gap-8 justify-between">
 						{[1, 2, 3].map((i) => (
 							<Card key={i} id={i} />
 						))}
