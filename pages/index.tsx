@@ -11,7 +11,7 @@ export default function Home() {
 			</Head>
 
 			<header className="sticky inset-0 z-10">
-				<nav className="flex items-center justify-between py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
+				<nav className="flex flex-col md:flex-row items-center justify-between py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
 					<p className="font-bold text-xl">TinoMuzambi</p>
 					<ul className="flex gap-4">
 						<li className="link">Home</li>
@@ -23,8 +23,8 @@ export default function Home() {
 			</header>
 
 			<main className="px-16">
-				<section className="flex items-center mt-8 gap-8">
-					<h1 className="text-8xl">
+				<section className="flex flex-col md:flex-row items-center mt-8 gap-1 md:gap-8">
+					<h1 className="text-4xl md:text-8xl">
 						Check out my{" "}
 						<span className="text-teal-500 font-bold selection:bg-white selection:text-teal-500">
 							Tailwind
@@ -36,7 +36,7 @@ export default function Home() {
 					<h2 className="text-3xl font-bold  my-4">
 						My <span className="text-teal-500">Cards</span>
 					</h2>
-					<div className="flex items-center gap-8 justify-between">
+					<div className="flex flex-col md:flex-row items-center gap-8 justify-between">
 						{[1, 2, 3].map((i) => (
 							<Card key={i} id={i} />
 						))}
@@ -47,7 +47,7 @@ export default function Home() {
 					<h2 className="text-3xl font-bold  my-4">
 						<span className="text-teal-500">Contact</span> Me
 					</h2>
-					<div className="flex items-start mt-8 gap-8">
+					<div className="flex flex-col md:flex-row items-start mt-8 gap-8">
 						<Map />
 						<form>
 							<div className="flex items-center gap-8">
@@ -99,7 +99,7 @@ export default function Home() {
 			</main>
 
 			<footer className="py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
-				<div className="flex items-start justify-between ">
+				<div className="flex flex-col md:flex-row divide-y-2 md:divide-y-0 items-start justify-between ">
 					<p className="font-bold text-6xl">
 						Tino
 						<br />

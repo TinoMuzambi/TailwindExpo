@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	};
 
 	return (
-		<div className="shadow-lg rounded-xl overflow-hidden w-[400px]">
+		<div className="shadow-lg rounded-xl overflow-hidden w-[320px] md:w-[400px]">
 			<div className="overflow-hidden">
 				<Image
 					className="hover:scale-150 duration-500"
