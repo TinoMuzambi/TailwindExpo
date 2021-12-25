@@ -29,7 +29,7 @@ export default function Home() {
 			</header>
 
 			<main className="px-16">
-				<section className="flex flex-col md:flex-row items-center mt-8 gap-1 md:gap-8">
+				<section className="flex flex-col md:flex-row items-center mt-8 gap-1 md:gap-8 min-h-screen">
 					<h1 className="text-4xl md:text-8xl">
 						Check out my{" "}
 						<span className="text-teal-500 font-bold selection:bg-white selection:text-teal-500">
@@ -38,7 +38,7 @@ export default function Home() {
 					</h1>
 					<Illustration />
 				</section>
-				<section className="my-16">
+				<section>
 					<h2 className="text-3xl font-bold  my-4">
 						My <span className="text-teal-500">Cards</span>
 					</h2>
