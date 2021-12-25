@@ -9,7 +9,7 @@ export default function Home() {
 				<title>Expo</title>
 			</Head>
 
-			<header className="sticky inset-0">
+			<header className="sticky inset-0 z-10">
 				<nav className="flex items-center justify-between py-4 px-16 bg-teal-500 text-white selection:bg-white selection:text-teal-500">
 					<p className="font-bold text-xl">TinoMuzambi</p>
 					<ul className="flex gap-4">
@@ -28,7 +28,7 @@ export default function Home() {
 					</h1>
 					<Illustration />
 				</section>
-				<section>
+				<section className="flex items-center gap-8 justify-between my-16">
 					<Card />
 					<Card />
 					<Card />
