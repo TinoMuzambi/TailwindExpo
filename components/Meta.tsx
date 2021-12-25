@@ -17,7 +17,7 @@ const Meta: React.FC<MetaProps> = ({
 }): JSX.Element => (
 	<Head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
+		<meta name="theme-color" content="#14b8a5" />
 		<meta name="keywords" content={keywords} />
 		<meta name="description" content={description} />
 
