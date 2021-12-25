@@ -28,7 +28,11 @@ export default function Home() {
 					</h1>
 					<Illustration />
 				</section>
-				<Card />
+				<section>
+					<Card />
+					<Card />
+					<Card />
+				</section>
 			</main>
 
 			<footer className=""></footer>
