@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Card from "../components/Card";
 import Illustration from "../components/Illustration";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
 					</h1>
 					<Illustration />
 				</section>
+				<Card />
 			</main>
 
 			<footer className=""></footer>
